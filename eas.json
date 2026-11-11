@@ -1,0 +1,32 @@
+{
+  "cli": {
+    "version": ">= 15.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyDl8_IUN4RnHKCb9mET2pBXZVZiUGZHiv8",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "mini-dept-store.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "mini-dept-store",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "mini-dept-store.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "288080602671",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:288080602671:web:5903d1fc914ecafe5f08da"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}
