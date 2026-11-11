@@ -8,6 +8,7 @@ export const entryStyles = StyleSheet.create({
   },
   content: {
     padding: spacing.lg,
+    paddingBottom: 80,
   },
   center: {
     flex: 1,

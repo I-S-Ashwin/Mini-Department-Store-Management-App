@@ -8,7 +8,7 @@ export const dashboardStyles = StyleSheet.create({
   },
   content: {
     padding: spacing.lg,
-    paddingBottom: spacing.xxl,
+    paddingBottom: 80,
   },
   center: {
     flex: 1,

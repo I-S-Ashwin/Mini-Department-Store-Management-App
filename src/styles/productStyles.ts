@@ -54,6 +54,7 @@ export const productStyles = StyleSheet.create({
   },
   listContent: {
     padding: spacing.lg,
+    paddingBottom: 80,
     gap: spacing.md,
   },
   center: {

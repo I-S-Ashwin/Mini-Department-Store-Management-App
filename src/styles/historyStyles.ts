@@ -40,6 +40,7 @@ export const historyStyles = StyleSheet.create({
   },
   listContent: {
     padding: spacing.lg,
+    paddingBottom: 80,
     gap: 10,
   },
   card: {
